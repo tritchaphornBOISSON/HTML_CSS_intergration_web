@@ -1,0 +1,510 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+
+}
+.wrapper {
+	overflow-x:hidden
+}
+
+header {
+	background-color: black;
+}
+
+button.navbar-toggler {
+	border:none;
+}
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar {
+	margin-left: 0px;
+}
+
+.navbar-brand {	
+	float: left;
+	margin-top:0px;
+}
+a.navbar-brand  {
+	position: relative;
+	left:-20px;
+}
+#navbar-cart{
+	position: relative;
+	left: 900px;
+}
+	
+li.nav-item-login {
+	position: relative;
+	left: 650px;
+}
+
+ul li a{
+	margin-left: 30px;	
+	position: relative;
+	left:-50px;	
+}
+
+img.search-icon {
+	position: relative;
+	left:5px;
+	top:15px;	
+}
+/*search bar*/
+body > div > div:nth-child(2) > div > div:nth-child(1) > div > form > input{
+	height: 50px;
+	width: 750px;
+  	border: 1px solid black;
+  	border-right: none;
+  	border-top: none;
+  	border-left: none;
+  	border-radius: 0;
+  	padding: 5px;
+  	outline: none;
+  	font-size: 20px;
+  	position: relative;
+  	left: 35px;  	
+}
+.search {
+  position: relative;
+  display: flex;
+}
+span.sajari-word {
+  position: relative;
+  left:600px;
+  top:-30px;
+}
+img.sajari-logo{
+  position: relative;
+  left:620px;
+  top:-30px;
+}
+
+
+div.best-match{
+	position: relative;
+	right: -570px;
+	top:5px;
+	width: 250px;
+}
+/*Best match word*/
+select.style-best-match{
+	font-size: 20px;
+	position: relative;
+	top:10px;
+}
+.style-best-match{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   border: none;
+   appearance: none;       /* Remove default arrow */
+   background-image: url(...);   /* Add custom arrow */ 
+}
+#dropdown-bestmatch {
+	position: relative;
+	top: 10px;
+	right: -120px;
+}
+.container{
+	margin-top:20px;
+
+}
+
+
+
+
+li.select {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.slider {
+  width: 100%;
+  height: 2px;
+  background: gray;
+  outline: none;
+  opacity: 0.7;
+
+}
+.price-min {
+	font-size: 14px;
+	position: relative;
+	top:10px;
+}
+.price-max {
+	font-size: 14px;
+	position: relative;
+	left:200px;
+	top:-30px;
+}
+
+.select {
+	font-size: 14px;	
+	margin-top: 15px;
+}
+.ul-filter {
+	margin-top: 30px;
+	padding-left: 0;
+}
+
+#myRange {
+	margin-top: 20px;
+}
+img.photo {
+	margin-bottom: 20px;
+	}
+
+.name-item {
+	font-size: 14px;
+	position: relative;;
+	top:0px;
+}
+.describe-item {
+	font-size: 10px;
+	position: relative;;
+	top:-10px;
+}
+.price-item{
+	font-size: 14px;
+	position: relative;
+	left:210px;
+	top:-65px;
+
+}
+
+.styledSelect{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   border: none;
+   appearance: none;       /* Remove default arrow */
+   background-image: url(...);   /* Add custom arrow */
+}
+
+.rating {
+	position: relative;
+	top: -50px
+}
+
+.fa-star {
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+.checked {
+  	-webkit-text-fill-color: black;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+/*fas:cart*/;
+.fas {
+	-webkit-text-fill-color: black;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+i.fas.cart-icon {
+	position: relative;
+	left: 215px;
+	top:-75px;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .btn:hover {
+  background-color: black;
+  color: white;
+}
+#my-pages{
+	position: relative;
+	left:10px;
+	margin-bottom: 50px;
+}
+a.next-page {
+	position: relative;
+	top:0px;
+	left:25px;
+}
+i.fas.fas-next {
+	-webkit-text-fill-color: black;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+	.hide-second-row {
+		display:none;
+	}
+	a.navbar-brand  {
+		position: relative;
+		left:0px;
+	}
+	#navbar-cart{
+		position: relative;
+		left: 90px;
+	}	
+	li.nav-item-login {
+		position: relative;
+		left: 0px;
+	}
+	ul li a{
+		margin-left: 30px;	
+		position: relative;
+		left:0px;	
+	}
+	div.row {
+		text-align: center;
+	}
+	
+	img.search-icon {
+		position: relative;
+		left:20px;
+		top:0px;	
+	}
+	/*search bar*/
+	body > div > div:nth-child(2) > div > div:nth-child(1) > div > form > input{
+		width: 300px;
+		position: relative;
+		top:-20px; 	
+	}
+	span.sajari-word {
+  		position: relative;
+  		left:150px;
+  		top:-10px;
+	}
+	img.sajari-logo{
+  		position: relative;
+  		left:175px;
+  		top:-10px;
+	}
+	select.style-best-match{
+		font-size: 16px;
+		position: relative;
+		top:10px;
+		left: -125px;
+	}
+
+
+	div.best-match{
+		position: relative;
+		right: -15px;
+		top:-5px;
+		width: 350px;
+	}
+	#dropdown-bestmatch {
+		position: relative;
+		top: 10px;
+	}
+	/*dropdown icon of FILTER BY*/
+	i#style-dropdown-small.fa{
+		position: relative;
+		left: 162px;
+	}
+	/*hr line under FILTER BY*/
+	body > div > div:nth-child(3) > div > div:nth-child(1) > div > hr{
+		margin-top: 0px;
+		width: 350px;
+		position:relative;
+		left: 15px;
+	}
+	/*cancel margin-top/botton of the word FILTER BY*/
+	body > div > div:nth-child(3) > div > div:nth-child(1) > div > p{
+		margin-top: -10px;
+		margin-bottom: -10px;
+		position: relative;
+		left: -140px;
+		top: 10px;
+	}
+	/*cancel margin-top of div.container*/
+	body > div > div:nth-child(3){
+		margin-top: 0px
+	}
+	
+	img.photo {
+		width:350px;
+		height: 350px;
+	}
+	.ul-filter {
+		display: none;
+	}
+	.hide-number {
+		display:none;
+	}
+	#my-pages{
+		position: relative;
+		left:50px;
+	}
+	div.description-detail {
+		text-align: left;
+		margin-left: 40px;
+	}
+	.price-item{
+		position: relative;
+		left:260px;	
+	}
+	i.fas.cart-icon {
+		position: relative;
+		left: 265px;
+		top:-75px;
+	}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.hide-second-row {
+		display:none;
+	}
+	a.navbar-brand  {
+		position: relative;
+		left:0px;
+	}
+	#navbar-cart{
+		position: relative;
+		left: 90px;
+	}	
+	li.nav-item-login {
+		position: relative;
+		left: 0px;
+	}
+	ul li a{
+		margin-left: 30px;	
+		position: relative;
+		left:0px;	
+	}
+	div.row {
+		text-align: center;
+	}
+	
+	img.search-icon {
+		position: relative;
+		left:20px;
+		top:0px;	
+	}
+	/*search bar*/
+	body > div > div:nth-child(2) > div > div:nth-child(1) > div > form > input{
+		width: 300px;
+		position: relative;
+		top:-20px; 	
+	}
+	span.sajari-word {
+  		position: relative;
+  		left:150px;
+  		top:-10px;
+	}
+	img.sajari-logo{
+  		position: relative;
+  		left:175px;
+  		top:-10px;
+	}
+	select.style-best-match{
+		font-size: 16px;
+		position: relative;
+		top:10px;
+		left: -125px;
+	}
+
+
+	div.best-match{
+		position: relative;
+		right: -15px;
+		top:-5px;
+		width: 350px;
+	}
+	#dropdown-bestmatch {
+		position: relative;
+		top: 10px;
+	}
+	/*dropdown icon of FILTER BY*/
+	i#style-dropdown-small.fa{
+		position: relative;
+		left: 162px;
+	}
+	/*hr line under FILTER BY*/
+	body > div > div:nth-child(3) > div > div:nth-child(1) > div > hr{
+		margin-top: 0px;
+		width: 350px;
+		position:relative;
+		left: 15px;
+	}
+	/*cancel margin-top/botton of the word FILTER BY*/
+	body > div > div:nth-child(3) > div > div:nth-child(1) > div > p{
+		margin-top: -10px;
+		margin-bottom: -10px;
+		position: relative;
+		left: -140px;
+		top: 10px;
+	}
+	/*cancel margin-top of div.container*/
+	body > div > div:nth-child(3){
+		margin-top: 0px
+	}
+	
+	img.photo {
+		width:350px;
+		height: 350px;
+	}
+	.ul-filter {
+		display: none;
+	}
+	.hide-number {
+		display:none;
+	}
+	#my-pages{
+		position: relative;
+		left:50px;
+	}
+	div.description-detail {
+		text-align: left;
+		margin-left: 40px;
+	}
+	.price-item{
+		position: relative;
+		left:260px;	
+	}
+	i.fas.cart-icon {
+		position: relative;
+		left: 265px;
+		top:-75px;
+	}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.display-only-small {
+		display:none;
+	}
+  
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.display-only-small {
+		display:none;
+	}
+  
+}
+
+/*/Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.display-only-small {
+		display:none;
+	}
+  
+}
